@@ -18,7 +18,7 @@
 (global-set-key "\C-c\C-n" 'comment-dwim)
 
 ;; Desktop saving
-(desktop-save-mode 1)
+(desktop-save-mode 0)
 
 (report-errors "File mode specification error: %s"
   (set-auto-mode))
